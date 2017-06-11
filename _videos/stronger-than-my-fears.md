@@ -1,5 +1,7 @@
 ---
 title: Stronger Than My Fears
-image_path: /assets/images/videos/BeLove.jpg
+image_path: /assets/images/videos/StrongerThanFear.jpg
 description:
 ---
+
+
