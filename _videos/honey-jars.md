@@ -1,5 +1,7 @@
 ---
 title: Honey Jars
-image_path: /assets/images/videos/BeLove.jpg
+image_path: /assets/images/videos/HoneyJars.jpg
 description:
 ---
+
+
