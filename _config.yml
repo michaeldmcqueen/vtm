@@ -49,7 +49,7 @@ defaults:
     scope:
       type: videos
     values:
-      layout: page
+      layout: video-page
       title:
       image_path:
       description:

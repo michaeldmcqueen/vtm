@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<main>
+  <section class="wrap">
+    <header class="page-header">
+      <h1 class="page-title">{{ page.title }}</h1>
+    </header>
+    <div class="videoWrapper">
+        <iframe src="{{ page.video_embed }}" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+    <div class="video-details-node">
+        <div class="about-video">{{ content }}</div>
+        <div class="music">
+            <h5 class="music-by">Music by {{ page.music_by}}</h5>
+            <h6 class="music-by-link"><a href="{{ page.music_by_website}}" target="_blank">{{ page.music_by_website}}</a></h6>
+        </div>
+    </div>
+    {% if page.url contains "contact" %}
+      {% include contact-form.html %}
+      {% elsif page.url contains "about" %}
+        {% include team.html %}
+    {% endif %}
+  </section>
+</main>

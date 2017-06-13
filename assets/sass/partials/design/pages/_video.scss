@@ -1,0 +1,19 @@
+.video-details-node {
+    padding: 3em 0 0;
+    @include breakpoint($bp-medium, $no-query: ".no-mq") {
+        float: left;
+        width: 50%;
+    }
+    .music {
+        margin-top: 2em;
+        text-transform: uppercase;
+    }
+}
+.about-video {
+    font-size: 2em;
+    font-style: italic;
+    p {
+        margin-bottom: 0;
+    }
+
+}

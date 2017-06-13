@@ -1,13 +1,18 @@
 .team-list {
+  @include breakpoint($bp-medium, $no-query: ".no-mq") {
+    display: flex;
+    justify-content: space-between;
+  }
   .person {
     padding-bottom: 2em;
     @include breakpoint($bp-medium, $no-query: ".no-mq") {
-      img {
-        @include grid-span(3, 1);
-      }
-      .info {
-        @include grid-span(9, 4);
-      }
+      width: 28%;
+    }
+    img {
+      width: 100%;
+    }
+    .bio {
+      font-style: italic;
     }
   }
 }

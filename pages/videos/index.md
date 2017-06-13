@@ -1,11 +1,8 @@
 ---
 title: Videos
+subtitle: We are passionate about the wellbeing of communities. We link artists to social issues via music videos and conversation guides. The result, community level conversations through schools, churches, and other local institutions to better understand and address these issues.
 permalink: "/videos/"
 description: This is just a sample blog.
 layout: videos
 ---
 
-Perlucentibus ture fameque, pectora non neque percutit caelo tempora additur et
-posset cuius. Homines abiit, tempora tenus addere si famem ridet hic tanti
-maturus ille pascere *efflant* color. Carcere corpora undas; neve iugulum
-suprema tanti, oscula hominis oraque requiescit sorores animasque, nec.

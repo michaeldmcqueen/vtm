@@ -2,16 +2,13 @@
 layout: page
 ---
 
-<section class="video-preface">{{ content }}</section>
 <section class="video-wrapper">
   {% for video in site.videos %}
     <div class="video-item clearfix">
       {% if video.image_path %}
         <a href="{{ video.url }}"><img src="{{ video.image_path }}" alt="{{ video.title }}"></a>
       {% endif %}
-      <div class="video-details">
-        <a href="{{ video.url }}"><h3>{{ video.title }}</h3></a>
-      </div>
+        <a href="{{ video.url }}" class="video-details"><h3>{{ video.title }}</h3></a>
     </div>
   {% endfor %}
   

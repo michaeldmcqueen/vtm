@@ -1,24 +1,15 @@
 ---
 title: About
+subtitle: Our mission at Videos That Matter is to create original, creative, and impactful content that activates and educates individuals on issues and values that impact health and wellbeing.
 permalink: "/about/"
-description: This is just a sample general page.
+description: Our mission at Videos That Matter is to create original, creative, and impactful content that activates and educates individuals on issues and values that impact health and wellbeing.
 layout: page
 ---
 
-*Lorem* markdownum iacet figurae, *fert* heros, stetit generis! Vel *vagus sua*
-alvum ab rexit: inclinatoque callo ad condita valido.
-
-## Traxit fera fratris Horae ibis hic etiam
-
-Triticeas premente altum eget rediere *limite*. Non orientis hunc, surgunt
-vocem: [ac](http://www.googel.com) cadit quod, Boebes superat! Ut
-Phoebe obfuit effugit hic arte: scripsi quaterque plenissima at volucris
-visaque. Vanis Cinyreius tamen: deficit sub ignem, lumina.
-
-## Flamine sceleratus Amoris anxia Cymeli calorque mortale
-
-Est undas; [si quoque](http://google.com) et ignorat vidit. Pro
-incursu modis missi lunae ad dicta: neganda Delius est. Utque et cadendum erat;
-qui **causas Thisbe terra** sacra esse quae sanguine, decursa sed structa ab
-beatam ut! Moderato fluminis coniungere ambae et certa carinae Macareus, sic et
-ista neque mox ventis regnare coepit.
+We do this through collaboration with artists as a means to support and promote their work, as well as, connect them with issues of societal concern. 
+ 
+Storytelling through music videos and animations gives us the opportunity to work with musicians, actors, illustrators, dancers, poets, and filmmakers to create awareness in a way not commonly seen. We partner our videos with conversation guides, a tool used to enhance the education of the topic at hand. 
+ 
+Our content can be used within a variety of curriculums including, but not limited to, schools, churches, and organizations. To learn more about using our content please visit our outreach page. 
+ 
+VTM is powered by Core Communities, a non-profit organization helping communities thrive through conversations and connection.
