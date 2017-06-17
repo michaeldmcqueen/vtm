@@ -41,6 +41,8 @@ collections:
     permalink: '/video/:title/'
   people:
     output: false
+  collaborators:
+    output: false
   guides:
     output: false
   sg:

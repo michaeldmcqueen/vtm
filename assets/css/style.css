@@ -933,8 +933,20 @@ main, header, footer, section, aside {
   text-transform: uppercase;
 }
 
+/* line 1, ../sass/partials/design/views/_team.scss */
+.team-list-wrap {
+  text-align: center;
+  padding: 5em 0;
+}
+/* line 4, ../sass/partials/design/views/_team.scss */
+.team-list-wrap h2 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-bottom: 2em;
+}
+
 @media (min-width: 50em) {
-  /* line 1, ../sass/partials/design/views/_team.scss */
+  /* line 10, ../sass/partials/design/views/_team.scss */
   .team-list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -942,6 +954,7 @@ main, header, footer, section, aside {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    text-align: center;
   }
 }
 /* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
@@ -952,13 +965,14 @@ main, header, footer, section, aside {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  text-align: center;
 }
-/* line 6, ../sass/partials/design/views/_team.scss */
+/* line 16, ../sass/partials/design/views/_team.scss */
 .team-list .person {
   padding-bottom: 2em;
 }
 @media (min-width: 50em) {
-  /* line 6, ../sass/partials/design/views/_team.scss */
+  /* line 16, ../sass/partials/design/views/_team.scss */
   .team-list .person {
     width: 28%;
   }
@@ -967,13 +981,86 @@ main, header, footer, section, aside {
 .no-mq .team-list .person {
   width: 28%;
 }
-/* line 11, ../sass/partials/design/views/_team.scss */
+/* line 21, ../sass/partials/design/views/_team.scss */
 .team-list .person img {
   width: 100%;
 }
-/* line 14, ../sass/partials/design/views/_team.scss */
-.team-list .person .bio {
+/* line 24, ../sass/partials/design/views/_team.scss */
+.team-list .person .position {
   font-style: italic;
+  font-size: 1.3em;
+}
+/* line 29, ../sass/partials/design/views/_team.scss */
+.team-list h4 {
+  margin-bottom: 0;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* line 38, ../sass/partials/design/views/_team.scss */
+.collabs-list-wrap {
+  text-align: center;
+  padding: 5em 0;
+}
+/* line 41, ../sass/partials/design/views/_team.scss */
+.collabs-list-wrap h2 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-bottom: 2em;
+}
+
+@media (min-width: 50em) {
+  /* line 47, ../sass/partials/design/views/_team.scss */
+  .collabs-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: center;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .collabs-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+}
+/* line 53, ../sass/partials/design/views/_team.scss */
+.collabs-list .collab {
+  padding-bottom: 2em;
+}
+@media (min-width: 50em) {
+  /* line 53, ../sass/partials/design/views/_team.scss */
+  .collabs-list .collab {
+    width: 28%;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .collabs-list .collab {
+  width: 28%;
+}
+/* line 58, ../sass/partials/design/views/_team.scss */
+.collabs-list .collab img {
+  width: 100%;
+}
+/* line 61, ../sass/partials/design/views/_team.scss */
+.collabs-list .collab .position {
+  font-style: italic;
+  font-size: 1.3em;
+}
+/* line 66, ../sass/partials/design/views/_team.scss */
+.collabs-list h4 {
+  margin-bottom: 0;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 /* line 2, ../sass/partials/design/views/_blog.scss */

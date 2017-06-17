@@ -1,7 +1,17 @@
+.team-list-wrap {
+    text-align: center;
+    padding: 5em 0;
+    h2 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 2em;
+    }
+}
 .team-list {
   @include breakpoint($bp-medium, $no-query: ".no-mq") {
     display: flex;
     justify-content: space-between;
+    text-align: center;
   }
   .person {
     padding-bottom: 2em;
@@ -11,8 +21,52 @@
     img {
       width: 100%;
     }
-    .bio {
+    .position {
       font-style: italic;
+      font-size: 1.3em;
     }
+  }
+  h4 {
+    margin-bottom: 0;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+}
+
+
+.collabs-list-wrap {
+    text-align: center;
+    padding: 5em 0;
+    h2 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 2em;
+    }
+}
+.collabs-list {
+  @include breakpoint($bp-medium, $no-query: ".no-mq") {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .collab {
+    padding-bottom: 2em;
+    @include breakpoint($bp-medium, $no-query: ".no-mq") {
+      width: 28%;
+    }
+    img {
+      width: 100%;
+    }
+    .position {
+      font-style: italic;
+      font-size: 1.3em;
+    }
+  }
+  h4 {
+    margin-bottom: 0;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
   }
 }
