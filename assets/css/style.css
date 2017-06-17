@@ -321,13 +321,17 @@ input[type="submit"]:hover {
 
 /* line 2, ../sass/partials/styleguide/forms/_label.scss */
 form label {
-  font-weight: normal;
-  font-size: 110%;
-  padding-bottom: .5em;
-  display: inline-block;
-  min-width: 55px;
+  font-size: 100%;
+  font-family: "Montserrat", sans-serif;
 }
-/* line 10, ../sass/partials/styleguide/forms/_label.scss */
+/* line 6, ../sass/partials/styleguide/forms/_label.scss */
+form .webform-component-checkbox {
+  padding: 1em 1.25em;
+  border: 1px solid #D3D3D3;
+  border-bottom: 0;
+  border-radius: 0;
+}
+/* line 12, ../sass/partials/styleguide/forms/_label.scss */
 form .description {
   font-size: 85%;
   margin: 1em 0;
@@ -793,7 +797,7 @@ header .logo {
 .wrap {
   max-width: 1500px;
   margin: 0 auto;
-  padding: 0 1em;
+  padding: 0 2em;
 }
 /* line 13, ../../../../.rvm/gems/ruby-2.1.1/gems/toolkit-2.3.0/stylesheets/toolkit/_clearfix.scss */
 .wrap:after {

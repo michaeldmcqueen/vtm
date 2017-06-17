@@ -41,6 +41,8 @@ collections:
     permalink: '/video/:title/'
   people:
     output: false
+  guides:
+    output: false
   sg:
     output: false
 
@@ -56,6 +58,11 @@ defaults:
       author:
       category:
       tags:
+  -
+    scope:
+      type: guides
+    values:
+      layout: page
   -
     scope:
       type: sg

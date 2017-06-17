@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<main>
+  <section class="wrap">
+    <header class="page-header">
+      <h1 class="page-title">{{ page.title }}</h1>
+      <div>{{ page.subtitle }}</div>
+    </header>
+    <div>{{ content }}</div>
+    <div class="submit-form">
+    
+    <form action="#" method="post">
+      <input type="hidden" name="_to" value="team@variantstudios.com">
+      <input type="hidden" name="_subject" value="Contact Form">
+      <input type="text" name="_gotcha" style="display: none;">
+        <div class="webform-component">
+            <input type="text" name="name" id="name" required placeholder="Name">
+        </div>
+        <div class="webform-component">
+            <input type="email" name="email" id="email" required placeholder="Email">
+        </div>
+        <div class="webform-component">
+            <input type="text" name="link" id="link" required placeholder="Link to Music (Soundcloud/Youtube/Spotify etc)">
+        </div>
+        <div class="webform-component webform-component-checkbox">
+            <input type="checkbox" name="disclamier" id="disclamier" required >
+              <label>I Own ALL Rights to the Music I'm Submmitting.</label>
+        </div>
+        <div class="webform-component">
+            <textarea id="message" name="message" rows="6" placeholder="Leave a Comment or Message"></textarea>
+        </div>
+        <input class="sendButton" type="submit" name="Submit" value="Send">
+    </form>
+
+    </div>
+  </section>
+</main>
