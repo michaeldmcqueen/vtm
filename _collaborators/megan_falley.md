@@ -1,6 +1,6 @@
 ---
 name: Megan Falley
-site_link: www.meganfalley.com
+site_link: 'http://www.meganfalley.com'
 image_path: /assets/images/team/megan.jpg
 weight: 3
 ---

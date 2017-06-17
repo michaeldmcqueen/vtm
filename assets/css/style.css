@@ -1013,49 +1013,53 @@ main, header, footer, section, aside {
 @media (min-width: 50em) {
   /* line 47, ../sass/partials/design/views/_team.scss */
   .collabs-list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
     text-align: center;
   }
 }
 /* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .collabs-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   text-align: center;
 }
-/* line 53, ../sass/partials/design/views/_team.scss */
+/* line 51, ../sass/partials/design/views/_team.scss */
 .collabs-list .collab {
   padding-bottom: 2em;
 }
 @media (min-width: 50em) {
-  /* line 53, ../sass/partials/design/views/_team.scss */
+  /* line 51, ../sass/partials/design/views/_team.scss */
   .collabs-list .collab {
-    width: 28%;
+    width: 27%;
+    display: inline-block;
+    margin: 0 2.5% 2em;
+    vertical-align: top;
   }
 }
 /* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .collabs-list .collab {
-  width: 28%;
+  width: 27%;
+  display: inline-block;
+  margin: 0 2.5% 2em;
+  vertical-align: top;
 }
-/* line 58, ../sass/partials/design/views/_team.scss */
+@media (min-width: 62.5em) {
+  /* line 51, ../sass/partials/design/views/_team.scss */
+  .collabs-list .collab {
+    width: 19%;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .collabs-list .collab {
+  width: 19%;
+}
+/* line 62, ../sass/partials/design/views/_team.scss */
 .collabs-list .collab img {
   width: 100%;
 }
-/* line 61, ../sass/partials/design/views/_team.scss */
-.collabs-list .collab .position {
+/* line 65, ../sass/partials/design/views/_team.scss */
+.collabs-list .collab p {
   font-style: italic;
   font-size: 1.3em;
 }
-/* line 66, ../sass/partials/design/views/_team.scss */
+/* line 70, ../sass/partials/design/views/_team.scss */
 .collabs-list h4 {
   margin-bottom: 0;
   font-size: 1.5em;
