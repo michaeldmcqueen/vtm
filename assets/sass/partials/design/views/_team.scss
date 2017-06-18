@@ -37,7 +37,7 @@
 
 .collabs-list-wrap {
     text-align: center;
-    padding: 5em 0;
+    padding: 5em 0 0;
     h2 {
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -53,11 +53,11 @@
     @include breakpoint($bp-medium, $no-query: ".no-mq") {
       width: 27%;
       display: inline-block;
-      margin: 0 2.5% 2em;
+      margin: 0 1.5% 2em;
       vertical-align: top;
     }
     @include breakpoint($bp-large, $no-query: ".no-mq") {
-      width: 19%;
+      width: 16%;
     }
     img {
       width: 100%;

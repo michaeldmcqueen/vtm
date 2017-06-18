@@ -13,8 +13,7 @@ layout: default
     <div class="video-details-node">
         <div class="about-video">{{ content }}</div>
         <div class="music">
-            <h5 class="music-by">Music by {{ page.music_by}}</h5>
-            <h6 class="music-by-link"><a href="{{ page.music_by_website}}" target="_blank">{{ page.music_by_website}}</a></h6>
+            <h5 class="music-by">Music by <a href="{{ page.music_by_website}}" target="_blank">{{ page.music_by}}</a></h5>
         </div>
     </div>
     {% if page.url contains "contact" %}

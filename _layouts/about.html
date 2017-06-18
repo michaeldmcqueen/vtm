@@ -8,9 +8,13 @@ layout: default
       <h1 class="page-title">{{ page.title }}</h1>
       <div>{{ page.subtitle }}</div>
     </header>
-    <div>{{ content }}</div>
-    {% if page.url contains "contact" %}
-      {% include contact-form.html %}
-    {% endif %}
+  </section>
+    <div class="about-section">
+      <div class="about-content">
+        {{ content }}
+      </div>
+      </div>
+    <section class="wrap">
+    {% include team.html %}
   </section>
 </main>

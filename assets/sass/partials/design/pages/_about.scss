@@ -1,0 +1,23 @@
+.about-section {
+    background: url('/assets/images/about.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+      background-color: #273948;
+
+}
+
+.about-content {
+max-width: 980px;
+    margin: 0 auto;
+    font-size: 1.3em;
+    font-style: italic;
+    color: #fff;
+    padding: 4em 1em 3em;
+    @include breakpoint($bp-medium, $no-query: '.no-mq') {
+      padding: 8em 1em 6em;
+      columns: 2;
+
+    }
+}

@@ -6,4 +6,4 @@ music_by: Nate Bosworth
 music_by_website:
 ---
 
-
+Nate Bosworth's song, Count to Three, is used to tell a visual story of three individuals who are facing different manifestations of domestic abuse.

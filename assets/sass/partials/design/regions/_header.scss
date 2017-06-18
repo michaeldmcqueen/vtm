@@ -13,4 +13,32 @@ header .main-nav {
 .header-wrapper  {
   padding: 1em 0;
   background: $header-bg;
+  border-bottom: 1px solid #efefef;
+}
+
+.home {
+  .header-wrapper  {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.6+0,0+30 */
+background: -moz-linear-gradient(left, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0) 30%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0) 30%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0) 30%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    padding: 1em 0;
+    border-bottom: 0;
+    width: 100%;
+    z-index: 1;
+    @include breakpoint($bp-medium, $no-query: '.no-mq') {
+      position: absolute;
+    }
+    nav .menu li a {
+      @include breakpoint($bp-medium, $no-query: '.no-mq') {
+      color: #fff;
+      text-shadow: 1px 1px 6px rgba(0,0,0,0.35);
+    }
+    }
+    nav .menu li:last-child a {
+      @include breakpoint($bp-medium, $no-query: '.no-mq') {
+      border-color: #fff;
+    }
+    }
+  }
 }

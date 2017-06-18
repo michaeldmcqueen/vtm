@@ -1,8 +1,10 @@
-- text: About
-  url: /about/
 - text: Videos
   url: /videos/
 - text: Guides
   url: /guides/
+- text: About
+  url: /about/
 - text: Contact
   url: /contact/
+- text: Submit a Song
+  url: /submit/

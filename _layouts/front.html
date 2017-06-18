@@ -1,9 +1,57 @@
----
-layout: default
----
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]-->
+{% include head.html %}
+<body class="home">
+  {% include browserupgrade.html %}
 
-<main>
-  <section class="wrap clearfix">
-    {{content}}
-  </section>
-</main>
+  <div class="header-wrapper clearfix">
+    <header itemscope class="wrap clearfix">
+      <div class="site-name logo">
+        <a href="/"><img src="/assets/images/logo.png" alt="{{site.title}}"></a>
+      </div>
+      <nav class="main-nav">
+        {% include nav.html nav=site.data.menu %}
+      </nav>
+    </header>
+  </div>
+
+  <div class="main-wrapper clearfix">
+    <main class="front">
+      <div class="front-video">
+        <div class="videoWrapper "> 
+          <iframe src="https://player.vimeo.com/video/213967123?background=1" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>  
+        </div>
+        <div class="caption">
+          <h2>Dreams</h2>
+          <div class="btn"><a href="/video/dreams">View Full Video</a></div>
+        </div>
+      </div>
+      <section class="wrap clearfix editable">
+       <div class="front-blocks">
+         <h3>About VTM</h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula quis nibh in volutpat. Praesent auctor enim a sapien iaculis finibus.</p>
+         <a href="/about">Learn More About Us</a>
+       </div>
+       <div class="front-blocks">
+         <h3>Conversation Guides</h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula quis nibh in volutpat. Praesent auctor enim a sapien iaculis finibus.</p>
+         <a href="/guides">View Conversation Guides</a>
+       </div>
+      </section>
+    </main>
+
+  </div>
+  
+  <div class="footer-wrapper clearfix">
+    {% include footer.html %}
+  </div>
+
+  {% include scripts.html %}
+</body>
+
+</html>
+
+

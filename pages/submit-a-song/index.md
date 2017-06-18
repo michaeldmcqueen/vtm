@@ -1,8 +1,6 @@
 ---
 title: Submit A Song
 permalink: "/submit/"
-description: 
+subtitle: Contact us with any question or messages an we will get back to you ASAP.
 layout: submit
 ---
-
-Replace me.
