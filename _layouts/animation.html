@@ -5,7 +5,7 @@ layout: page
 
 <section class="video-wrapper">
   {% for video in site.videos %}
-  {% if video.type == 'Video' %}
+  {% if video.type == 'Animation' %}
     <div class="video-item clearfix">
       {% if video.image_path %}
         <a href="{{ video.url }}"><img src="{{ video.image_path }}" alt="{{ video.title }}"></a>

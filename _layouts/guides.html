@@ -2,13 +2,16 @@
 layout: page
 ---
 
-<section class="video-wrapper">
+<section class="guide-wrapper">
   {% for guide in site.guides %}
-    <div class="video-item clearfix">
+    <div class="guide-item clearfix">
       {% if guide.image_path %}
-        <a href="{{ guide.guide_pdf_link }}" target="_blank"><img src="{{ guide.image_path }}" alt="{{ guide.title }}"></a>
+        <a href="{{ guide.guide_pdf_link }}" target="_blank" class="guide-link"><img src="{{ guide.image_path }}" alt="{{ guide.title }}"></a>
       {% endif %}
-        <a href="{{ guide.guide_pdf_link  }}" class="video-details"><h3>{{ guide.title }}</h3></a>
+        <a href="{{ guide.guide_pdf_link  }}" class="guide-details">
+          <h3>{{ guide.title }}</h3>
+          <p>{{ guide.topic }}</p>
+        </a>
     </div>
   {% endfor %}
   
