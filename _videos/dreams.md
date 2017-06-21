@@ -2,7 +2,7 @@
 title: Dreams
 image_path: /assets/images/videos/PostPartum.jpg
 video_embed: 'https://player.vimeo.com/video/213967123'
-music_by: Harold Van Lennop
+music_by: Harold Van Lennep
 music_by_website: 'https://soundcloud.com/harold-van-lennep'
 type: Video
 ---
