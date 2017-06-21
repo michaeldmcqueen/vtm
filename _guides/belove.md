@@ -1,6 +1,6 @@
 ---
 title: Be Love
-topic: Kindness has the power to heal.
+topic: Kindness has the power to heal
 image_path: /assets/images/videos/BeLove.jpg
 guide_pdf_link: 'https://indd.adobe.com/view/8647c411-9e76-4922-8e2e-33625e5594dc'
 ---
