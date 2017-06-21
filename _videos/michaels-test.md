@@ -4,7 +4,7 @@ image_path: /assets/images/videos/HoneyJars.jpg
 video_embed: 'https://player.vimeo.com/video/196683500'
 music_by: Beck
 music_by_website: 'https://google.com'
-type: Video
+type: Animation
 ---
 
 
