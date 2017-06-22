@@ -1,7 +1,7 @@
 ---
 title: Start Tending
 image_path: /assets/images/gratitude.JPG
-video_embed: 'https://player.vimeo.com/video/213967123'
+video_embed: 'https://player.vimeo.com/video/dd12cd9291'
 music_by:
 music_by_website:
 type: Animation
