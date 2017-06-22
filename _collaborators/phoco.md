@@ -6,4 +6,4 @@ weight: 1
 ---
 
 
-Video Production for “Count to Three”
+Full Video Production for “Count to Three” & "Stronger Than My Fears"&nbsp;
