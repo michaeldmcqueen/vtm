@@ -6,4 +6,4 @@ weight: 2
 ---
 
 
-Video for “Be Love”
+Video collaboration for “Be Love”
