@@ -8,11 +8,11 @@ layout: default
       <h1 class="page-title">{{ page.title }}</h1>
       <div>{{ page.subtitle }}</div>
     </header>
-    <div>{{ content }}</div>
+    <div class="submit-content">{{ content }}</div>
     <div class="submit-form">
     
     <form action="#" method="post">
-      <input type="hidden" name="_to" value="sarah@corecommunities.org">
+      <input type="hidden" name="_to" value="info@corecommunites.org">
       <input type="hidden" name="_subject" value="Contact Form">
       <input type="text" name="_gotcha" style="display: none;">
         <div class="webform-component">
@@ -24,10 +24,20 @@ layout: default
         <div class="webform-component">
             <input type="text" name="link" id="link" required placeholder="Link to Music (Soundcloud/Youtube/Spotify etc)">
         </div>
+        <div class="webform-component">
+            <input type="text" name="link2" id="link2" placeholder="Additional Link">
+        </div>
         <div class="webform-component webform-component-checkbox">
             <input type="checkbox" name="disclamier" id="disclamier" required >
               <label>I Own ALL Rights to the Music I'm Submmitting.</label>
         </div>
+        <div class="webform-component webform-component-checkbox">
+            <input type="checkbox" name="allow" id="allow" required >
+              <label>I Give Permission to Videos That Matter to use my Song</label>
+        </div>
+
+        
+
         <div class="webform-component">
             <textarea id="message" name="message" rows="6" placeholder="Leave a Comment or Message"></textarea>
         </div>

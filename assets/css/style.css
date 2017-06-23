@@ -274,32 +274,33 @@ input[type="submit"]:hover {
   display: block;
   text-decoration: none;
   text-align: center;
-  background-color: #4da4f1;
-  border: 1px solid #1e8ced;
+  background-color: rgba(96, 255, 56, 0.48);
+  border: 1px solid rgba(55, 255, 5, 0.48);
   border-radius: 2px;
   color: white;
   cursor: pointer;
   padding: .5em 1.25em;
   font-size: 95%;
   font-family: "Overpass", sans-serif;
+  background: rgba(96, 255, 56, 0.48);
   -webkit-transition: all linear 0.2s;
   transition: all linear 0.2s;
 }
 /* line 56, ../sass/partials/global/_mixins.scss */
 .btn a:hover {
-  background-color: #449ff0;
+  background-color: rgba(88, 255, 46, 0.48);
 }
-/* line 30, ../sass/partials/styleguide/forms/_buttons.scss */
+/* line 31, ../sass/partials/styleguide/forms/_buttons.scss */
 .btn a:hover {
-  background: #1e8ced;
-  border-color: #127fe0;
+  background: rgba(32, 158, 0, 0.48);
+  border-color: rgba(27, 133, 0, 0.48);
 }
-/* line 34, ../sass/partials/styleguide/forms/_buttons.scss */
+/* line 35, ../sass/partials/styleguide/forms/_buttons.scss */
 .btn a i {
   vertical-align: middle;
   padding-left: .5em;
 }
-/* line 39, ../sass/partials/styleguide/forms/_buttons.scss */
+/* line 40, ../sass/partials/styleguide/forms/_buttons.scss */
 .btn.alt a {
   background-color: #f85655;
   border: 1px solid #f62524;
@@ -313,7 +314,7 @@ input[type="submit"]:hover {
 .btn.alt a:hover {
   background-color: #f84c4b;
 }
-/* line 41, ../sass/partials/styleguide/forms/_buttons.scss */
+/* line 42, ../sass/partials/styleguide/forms/_buttons.scss */
 .btn.alt a:hover {
   background: #f62524;
   border-color: #f50d0c;
@@ -783,6 +784,41 @@ ul.pager li a:visited {
 .submit-form {
   max-width: 900px;
   margin: 0 auto;
+  padding-top: 3em;
+}
+@media (min-width: 50em) {
+  /* line 19, ../sass/partials/design/pages/_contact.scss */
+  .submit-form {
+    display: inline-block;
+    vertical-align: top;
+    width: 55%;
+    float: right;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .submit-form {
+  display: inline-block;
+  vertical-align: top;
+  width: 55%;
+  float: right;
+}
+
+/* line 32, ../sass/partials/design/pages/_contact.scss */
+.submit-content {
+  font-size: 1.2em;
+  padding-top: 3em;
+}
+@media (min-width: 50em) {
+  /* line 32, ../sass/partials/design/pages/_contact.scss */
+  .submit-content {
+    display: inline-block;
+    width: 40%;
+  }
+}
+/* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .submit-content {
+  display: inline-block;
+  width: 40%;
 }
 
 /* line 1, ../sass/partials/design/pages/_front.scss */

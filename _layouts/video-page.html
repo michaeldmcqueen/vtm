@@ -12,9 +12,11 @@ layout: default
     </div>
     <div class="video-details-node">
         <div class="about-video">{{ content }}</div>
+        {% if page.music_by %}
         <div class="music">
             <h5 class="music-by">Music by <a href="{{ page.music_by_website}}" target="_blank">{{ page.music_by}}</a></h5>
         </div>
+        {% endif %}
     </div>
     {% if page.url contains "contact" %}
       {% include contact-form.html %}

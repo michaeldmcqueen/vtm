@@ -17,6 +17,24 @@
 }
 
 .submit-form {
-        max-width: 900px;
+    max-width: 900px;
     margin: 0 auto;
+        padding-top: 3em;
+
+    @include breakpoint($bp-medium, $no-query: ".no-mq") {
+        display: inline-block;
+        vertical-align: top;
+        width: 55%;
+        float: right;
+    }
+}
+
+.submit-content {
+    font-size: 1.2em;
+        padding-top: 3em;
+
+    @include breakpoint($bp-medium, $no-query: ".no-mq") {
+        display: inline-block;
+        width: 40%;
+    }
 }
