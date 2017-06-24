@@ -1,4 +1,8 @@
 .logo {
+  float: left;
+  @include breakpoint($bp-medium, $no-query: '.no-mq') {
+      float: none;
+    }
   img {
     display: block;
     margin: 0 auto 0 auto;

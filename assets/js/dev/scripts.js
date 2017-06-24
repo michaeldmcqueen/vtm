@@ -6,7 +6,7 @@ $(document).ready(function() {
     $('html').addClass('no-mq');
   }
   // Mobile Menu Funcation
-  $(".menu-btn").on('click touch', function() {
-    $('.menu').toggleClass('show');
+  $(".hamburger-menu").on('click touch', function() {
+    $('.main-nav').toggle('show');
   });
 });

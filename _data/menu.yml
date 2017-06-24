@@ -6,6 +6,11 @@
   url: /guides/
 - text: About
   url: /about/
+  subitems:
+    - text: Sponsorship
+      url: /about/sponsorship/
+    - text: Outreach
+      url: /about/outreach/
 - text: Contact
   url: /contact/
 - text: Submit a Song

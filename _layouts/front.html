@@ -12,6 +12,8 @@
       <div class="site-name logo">
         <a href="/"><img src="/assets/images/logo.png" alt="{{site.title}}" /></a>
       </div>
+      <div class="hamburger-menu"><a href="#menu-original"><div class="bar"></div></a></div>
+
       <nav class="main-nav">
         {% include nav.html nav=site.data.menu %}
       </nav>
@@ -21,13 +23,16 @@
   <div class="main-wrapper clearfix">
     <main class="front">
       <div class="front-video">
+        <a href="{{page.video_link}}" class="front-video-bg-link"></a>
         <div class="videoWrapper "> 
-          <iframe src="{{page.header_video}}?background=1" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>  
+          <iframe src="{{page.header_video}}?background=1" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>
+
         <div class="caption">
           <h2>{{page.video_title}}</h2>
           <div class="btn"><a href="{{page.video_link}}">View Full Video</a></div>
         </div>
+
       </div>
       <section class="wrap clearfix editable"><div class="front-blocks"><h3>About VTM</h3><p>Our mission at Videos That Matter is to create original, creative, and impactful content that activates and educates individuals on issues and values that impact health and wellbeing.</p><a href="/about">Learn More About Us</a></div><div class="front-blocks"><h3>Submit a Song</h3><p>Would you like us to use a song of yours? Great! We'd love you to submit any and all types of songs for us to create videos with.&nbsp;</p><p>&nbsp;</p><a href="/submit">Submit Here</a></div></section>
     </main>
