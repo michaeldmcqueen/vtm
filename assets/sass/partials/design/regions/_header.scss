@@ -28,6 +28,8 @@ background: linear-gradient(to right, rgba(255,255,255,0.6) 0%,rgba(255,255,255,
     z-index: 1;
     @include breakpoint($bp-medium, $no-query: '.no-mq') {
       position: absolute;
+          z-index: 11;
+
     }
     nav .menu li a {
       @include breakpoint($bp-medium, $no-query: '.no-mq') {

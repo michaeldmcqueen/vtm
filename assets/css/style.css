@@ -1190,14 +1190,16 @@ header .logo {
   /* line 20, ../sass/partials/design/regions/_header.scss */
   .home .header-wrapper {
     position: absolute;
+    z-index: 11;
   }
 }
 /* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .home .header-wrapper {
   position: absolute;
+  z-index: 11;
 }
 @media (min-width: 50em) {
-  /* line 32, ../sass/partials/design/regions/_header.scss */
+  /* line 34, ../sass/partials/design/regions/_header.scss */
   .home .header-wrapper nav .menu li a {
     color: #fff;
     text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.35);
@@ -1209,7 +1211,7 @@ header .logo {
   text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.35);
 }
 @media (min-width: 50em) {
-  /* line 38, ../sass/partials/design/regions/_header.scss */
+  /* line 40, ../sass/partials/design/regions/_header.scss */
   .home .header-wrapper nav .menu li:last-child a {
     border-color: #fff;
   }
