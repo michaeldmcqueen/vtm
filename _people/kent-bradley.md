@@ -1,6 +1,8 @@
 ---
 name: Kent Bradley
-position: Executive Director 
-image_path: http://joelkimmel.com/wordpress/wp-content/uploads/lodging_portrait.jpg
+position: Executive Director
+image_path: /assets/images/kent1.jpeg
 weight: 1
 ---
+
+
