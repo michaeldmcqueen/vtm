@@ -1,9 +1,8 @@
 ---
 name: Kaylee Bowers
-position:
+position: Intern - Writer
 image_path: /assets/images/kayleebowers.JPG
 weight: 4
 ---
 
 
-Intern - Writer
