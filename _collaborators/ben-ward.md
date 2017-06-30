@@ -1,6 +1,6 @@
 ---
 name: Ben Ward
-site_link:
+site_link: 'http://www.benwardphoto.com/'
 image_path: /assets/images/benward.jpg
 weight: 6
 ---
