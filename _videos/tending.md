@@ -8,6 +8,4 @@ type: Animation
 ---
 
 
-Tending is a convenient, easy to use, one stop shop for family caregivers, supporting and caring for loved ones, whether they live in the next room or across the country.
-
-www.starttending.com
+Tending is a convenient, easy to use, one stop shop for family caregivers, supporting and caring for loved ones, whether they live in the next room or across the country. www.starttending.com
