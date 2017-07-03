@@ -1,4 +1,4 @@
-<div class="team-list-wrap">
+<div class="team-list-wrap" id="team">
 <h2>Core Team</h2>
   <div class="team-list">
   {% assign items = site.people | sort: 'weight' %}
@@ -16,7 +16,7 @@
   </div>
 </div>
 
-<div class="collabs-list-wrap">
+<div class="collabs-list-wrap" id="collab">
 <h2>Collaborators</h2>
   <div class="collabs-list">
   {% assign items = site.collaborators | sort: 'weight' %}

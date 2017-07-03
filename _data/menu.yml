@@ -7,6 +7,10 @@
 - text: About
   url: /about/
   subitems:
+    - text: Team
+      url: /about#team
+    - text: Collabarators
+      url: /about#collab
     - text: Sponsorship
       url: /about/sponsorship/
     - text: Outreach

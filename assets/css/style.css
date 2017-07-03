@@ -1403,22 +1403,28 @@ main, header, footer, section, aside {
   /* line 16, ../sass/partials/design/views/_team.scss */
   .team-list .person {
     width: 28%;
+    display: inline-block;
+    margin: 0 1.5% 2em;
+    vertical-align: top;
   }
 }
 /* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .team-list .person {
   width: 28%;
+  display: inline-block;
+  margin: 0 1.5% 2em;
+  vertical-align: top;
 }
-/* line 21, ../sass/partials/design/views/_team.scss */
+/* line 24, ../sass/partials/design/views/_team.scss */
 .team-list .person img {
   width: 100%;
 }
-/* line 24, ../sass/partials/design/views/_team.scss */
+/* line 27, ../sass/partials/design/views/_team.scss */
 .team-list .person .position {
   font-style: italic;
   font-size: 1.3em;
 }
-/* line 29, ../sass/partials/design/views/_team.scss */
+/* line 32, ../sass/partials/design/views/_team.scss */
 .team-list h4 {
   margin-bottom: 0;
   font-size: 1.5em;
@@ -1426,12 +1432,12 @@ main, header, footer, section, aside {
   letter-spacing: 1px;
 }
 
-/* line 38, ../sass/partials/design/views/_team.scss */
+/* line 41, ../sass/partials/design/views/_team.scss */
 .collabs-list-wrap {
   text-align: center;
   padding: 5em 0 0;
 }
-/* line 41, ../sass/partials/design/views/_team.scss */
+/* line 44, ../sass/partials/design/views/_team.scss */
 .collabs-list-wrap h2 {
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -1439,7 +1445,7 @@ main, header, footer, section, aside {
 }
 
 @media (min-width: 50em) {
-  /* line 47, ../sass/partials/design/views/_team.scss */
+  /* line 50, ../sass/partials/design/views/_team.scss */
   .collabs-list {
     text-align: center;
   }
@@ -1448,12 +1454,12 @@ main, header, footer, section, aside {
 .no-mq .collabs-list {
   text-align: center;
 }
-/* line 51, ../sass/partials/design/views/_team.scss */
+/* line 54, ../sass/partials/design/views/_team.scss */
 .collabs-list .collab {
   padding-bottom: 2em;
 }
 @media (min-width: 50em) {
-  /* line 51, ../sass/partials/design/views/_team.scss */
+  /* line 54, ../sass/partials/design/views/_team.scss */
   .collabs-list .collab {
     width: 27%;
     display: inline-block;
@@ -1469,7 +1475,7 @@ main, header, footer, section, aside {
   vertical-align: top;
 }
 @media (min-width: 62.5em) {
-  /* line 51, ../sass/partials/design/views/_team.scss */
+  /* line 54, ../sass/partials/design/views/_team.scss */
   .collabs-list .collab {
     width: 16%;
   }
@@ -1478,16 +1484,16 @@ main, header, footer, section, aside {
 .no-mq .collabs-list .collab {
   width: 16%;
 }
-/* line 62, ../sass/partials/design/views/_team.scss */
+/* line 65, ../sass/partials/design/views/_team.scss */
 .collabs-list .collab img {
   width: 100%;
 }
-/* line 65, ../sass/partials/design/views/_team.scss */
+/* line 68, ../sass/partials/design/views/_team.scss */
 .collabs-list .collab p {
   font-style: italic;
   font-size: 1.3em;
 }
-/* line 70, ../sass/partials/design/views/_team.scss */
+/* line 73, ../sass/partials/design/views/_team.scss */
 .collabs-list h4 {
   margin-bottom: 0;
   font-size: 1.5em;
