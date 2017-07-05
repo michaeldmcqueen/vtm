@@ -8,9 +8,9 @@
   url: /about/
   subitems:
     - text: Team
-      url: /about#team
-    - text: Collabarators
-      url: /about#collab
+      url: '/about#team'
+    - text: Collaborators
+      url: '/about#collab'
     - text: Sponsorship
       url: /about/sponsorship/
     - text: Outreach
