@@ -7,3 +7,16 @@
         max-width: 150px;
     }
 }
+
+.footer-wrapper {
+  .social-links {
+    text-align: center;
+    li {
+      width: 40px;
+      margin: 0 5px;
+    }
+    img {
+      max-width: 100%;
+    }
+  }
+}
