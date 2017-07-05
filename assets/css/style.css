@@ -595,14 +595,14 @@ ul.pager li a:visited {
   .menu {
     text-align: right;
     padding: 0;
-    padding-top: 15px;
+    padding-top: 25px;
   }
 }
 /* line 92, ../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq .menu {
   text-align: right;
   padding: 0;
-  padding-top: 15px;
+  padding-top: 25px;
 }
 /* line 23, ../sass/partials/design/blocks/_main-navigation.scss */
 .menu li {
@@ -1126,13 +1126,14 @@ ul.pager li a:visited {
 /* line 12, ../sass/partials/design/regions/_footer.scss */
 .footer-wrapper .social-links {
   text-align: center;
+  padding-bottom: 1em;
 }
-/* line 14, ../sass/partials/design/regions/_footer.scss */
+/* line 15, ../sass/partials/design/regions/_footer.scss */
 .footer-wrapper .social-links li {
   width: 40px;
   margin: 0 5px;
 }
-/* line 18, ../sass/partials/design/regions/_footer.scss */
+/* line 19, ../sass/partials/design/regions/_footer.scss */
 .footer-wrapper .social-links img {
   max-width: 100%;
 }
