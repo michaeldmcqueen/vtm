@@ -1,6 +1,6 @@
 ---
 name: Allie Ogg
-site_link: www.allieogg.com
+site_link: 'http://www.allieogg.com/'
 image_path: /assets/images/allieogg-portrait.jpg
 weight: 9
 ---
