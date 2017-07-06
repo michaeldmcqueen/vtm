@@ -1,6 +1,9 @@
 ---
 name: Satsang
-site_link:
-image_path:
-weight: 6
+site_link: 'http://www.satsangmovement.com/'
+image_path: /assets/images/download.jpeg
+weight: 12
 ---
+
+
+Song "Be Love"&nbsp;
