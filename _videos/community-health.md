@@ -1,6 +1,6 @@
 ---
 title: Community Health
-image_path: /assets/images/screenshot.PNG
+image_path: /assets/images/ScreenShot.png
 video_embed: 'https://player.vimeo.com/video/220690061'
 music_by:
 music_by_website:
