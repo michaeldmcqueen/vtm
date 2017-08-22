@@ -1,7 +1,7 @@
 ---
-name: Evan McCandless
+name:
 position: Creative Director - Animation
-image_path: /assets/images/evan.jpg
+image_path: /assets/images/Evian.jpg
 weight: 4
 ---
 
