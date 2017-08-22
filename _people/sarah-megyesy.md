@@ -1,7 +1,7 @@
 ---
-name: Sarah Megyesy
+name:
 position: Creative Director - Music Videos
-image_path: /assets/images/fullsizerender.jpg
+image_path: /assets/images/Megyesy.jpg
 weight: 3
 ---
 
