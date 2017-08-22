@@ -1,7 +1,7 @@
 ---
-name: Kent Bradley
+name:
 position: Executive Director
-image_path: /assets/images/kent-pic.jpg
+image_path: /assets/images/Kent.jpg
 weight: 1
 ---
 
