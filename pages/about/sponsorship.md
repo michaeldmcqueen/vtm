@@ -21,3 +21,5 @@ If you love this work, if you love collaboration between artists, if you love in
 We want to thank all of our current sponsors:
 
 ![](/assets/images/versions/downtown-artery---x----724-300x---.png)![](/assets/images/versions/scl-health---x----1024-198x---.jpg)
+
+![](/assets/images/versions/dignity-health-logo---x----405-124x---.png)
