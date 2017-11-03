@@ -16,4 +16,4 @@ Dance choreographed and performed by Nayomi Van Brunt & Evan Flood
 
 &nbsp;
 
-Art Installation at location<br>Titled: Omega<br>Artist: Regan Rosburg
+Art Installation at The Armory:&nbsp;<br>Titled: Omega<br>Artist: Regan Rosburg
