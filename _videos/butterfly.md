@@ -10,6 +10,8 @@ type: Video
 
 Addiction is a complex disorder and is difficult for anyone to overcome. Addiction can lead to overdose, the number one cause of death for Americans under the age of 50.&nbsp;
 
+&nbsp;
+
 Dance choreographed and performed by Nayomi Van Brunt & Evan Flood
 
 Art Installation at location<br>Titled: Omega<br>Artist: Regan Rosburg
