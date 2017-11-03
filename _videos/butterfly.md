@@ -14,4 +14,6 @@ Addiction is a complex disorder and is difficult for anyone to overcome. Addicti
 
 Dance choreographed and performed by Nayomi Van Brunt & Evan Flood
 
+&nbsp;
+
 Art Installation at location<br>Titled: Omega<br>Artist: Regan Rosburg
