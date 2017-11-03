@@ -3,7 +3,7 @@ title: Butterfly
 image_path: /assets/images/butterflystill17.jpg
 video_embed: 'https://player.vimeo.com/video/241036060'
 music_by: Rosin
-music_by_website: www.rosinsong.com
+music_by_website: 'http://www.rosinsong.com'
 type: Video
 ---
 
