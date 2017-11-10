@@ -1,6 +1,8 @@
 ---
 name: Rosin
-site_link:
-image_path:
-weight: 6
+site_link: 'http://www.rosinsong.com/#new-page'
+image_path: /assets/images/rosin.jpg
+weight: 16
 ---
+
+
