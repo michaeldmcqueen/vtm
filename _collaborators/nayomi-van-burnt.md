@@ -1,7 +1,7 @@
 ---
 name: Nayomi Van Burnt
 site_link:
-image_path:
+image_path: /assets/images/butterflystill1.jpg
 weight: 22
 ---
 
