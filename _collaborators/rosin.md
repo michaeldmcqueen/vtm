@@ -2,7 +2,8 @@
 name: Rosin
 site_link: 'http://www.rosinsong.com/#new-page'
 image_path: /assets/images/rosin.jpg
-weight: 16
+weight: 18
 ---
 
 
+Song "Butterfly"
