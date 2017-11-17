@@ -1,6 +1,8 @@
 ---
 name: Cassidy Neely
-position:
-image_path:
+position: Director of Community Outreach
+image_path: /assets/images/cassidy.jpg
 weight: 4
 ---
+
+
