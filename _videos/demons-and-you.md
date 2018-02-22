@@ -1,9 +1,9 @@
 ---
-title: Demons and You
+title: Demons and You | Self Image
 image_path: /assets/images/videos/Demons.jpg
-video_embed: https://player.vimeo.com/video/186443468
+video_embed: 'https://player.vimeo.com/video/186443468'
 music_by: Dave Tamkin
-music_by_website: http://www.davetamkin.com
+music_by_website: 'http://www.davetamkin.com'
 type: Video
 ---
 
