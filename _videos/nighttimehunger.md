@@ -1,9 +1,9 @@
 ---
-title: Nighttime Hunger
+title: Nighttime Hunger | Transient Homelessness
 image_path: /assets/images/videos/NighttimeHunger.jpg
-video_embed: https://player.vimeo.com/video/192850262
+video_embed: 'https://player.vimeo.com/video/192850262'
 music_by: Overcoats
-music_by_website: http://www.overcoatsmusic.com
+music_by_website: 'http://www.overcoatsmusic.com'
 type: Video
 ---
 
