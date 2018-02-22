@@ -1,9 +1,9 @@
 ---
-title: Stronger Than My Fears
+title: Stronger Than My Fears | Overcoming Fear
 image_path: /assets/images/videos/StrongerThanFear.jpg
-video_embed: https://player.vimeo.com/video/172678736
+video_embed: 'https://player.vimeo.com/video/172678736'
 music_by: SHEL
-music_by_website: http://www.shelmusic.com
+music_by_website: 'http://www.shelmusic.com'
 type: Video
 ---
 
