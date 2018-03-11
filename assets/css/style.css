@@ -1145,7 +1145,7 @@ header .logo {
 @media (min-width: 50em) {
   /* line 1, ../sass/partials/design/regions/_header.scss */
   header .logo {
-    width: 33.33333%;
+    width: 25%;
     float: left;
     margin-right: -100%;
     margin-left: 0;
@@ -1154,7 +1154,7 @@ header .logo {
 }
 /* line 92, ../../../../../.rvm/gems/ruby-2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq header .logo {
-  width: 33.33333%;
+  width: 25%;
   float: left;
   margin-right: -100%;
   margin-left: 0;
@@ -1164,7 +1164,7 @@ header .logo {
 @media (min-width: 50em) {
   /* line 7, ../sass/partials/design/regions/_header.scss */
   header .main-nav {
-    width: 65.95745%;
+    width: 74.46809%;
     float: right;
     margin-left: 0;
     margin-right: 0;
@@ -1173,7 +1173,7 @@ header .logo {
 }
 /* line 92, ../../../../../.rvm/gems/ruby-2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
 .no-mq header .main-nav {
-  width: 65.95745%;
+  width: 74.46809%;
   float: right;
   margin-left: 0;
   margin-right: 0;
@@ -1683,4 +1683,26 @@ main, header, footer, section, aside {
   color: #fff;
   font-size: 1.3em;
   font-style: italic;
+}
+
+/* line 58, ../sass/partials/design/views/_guides.scss */
+.interview-heading {
+  text-align: center;
+  padding: 4rem 0;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+/* line 68, ../sass/partials/design/views/_guides.scss */
+.one-conversation .wrap {
+  max-width: 1200px;
+}
+/* line 71, ../sass/partials/design/views/_guides.scss */
+.one-conversation .page-header {
+  max-width: 800px;
+}
+/* line 73, ../sass/partials/design/views/_guides.scss */
+.one-conversation .page-header .sub {
+  font-size: 1.3rem;
 }
