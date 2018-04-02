@@ -1,8 +1,13 @@
 ---
 title: Conversation Guides
-subtitle: Our mission at Videos That Matter is to create original, creative, and impactful content that activates and educates individuals on issues and values that impact health and wellbeing.
-permalink: "/guides/"
-description: Our mission at Videos That Matter is to create original, creative, and impactful content that activates and educates individuals on issues and values that impact health and wellbeing.
+subtitle: >-
+  We create conversation guides to accompany our music videos to expand on the
+  topic and provide a platform for conversation, resources, and research.
+permalink: /guides/
+description: >-
+  Our mission at Videos That Matter is to create original, creative, and
+  impactful content that activates and educates individuals on issues and values
+  that impact health and wellbeing.
 layout: guides
 ---
 
