@@ -13,7 +13,7 @@ description: >-
 layout: about
 ---
 
-##### Storytelling through music videos and animations gives us the opportunity to work with musicians, actors, illustrators, dancers, poets, and filmmakers to create awareness in a way not commonly seen.
+Storytelling through music videos and animations gives us the opportunity to work with musicians, actors, illustrators, dancers, poets, and filmmakers to create awareness in a way not commonly seen.
 
 &nbsp;
 
