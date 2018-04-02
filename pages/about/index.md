@@ -13,12 +13,10 @@ description: >-
 layout: about
 ---
 
-Storytelling through music videos and animations gives us the opportunity to work with musicians, actors, illustrators, dancers, poets, and filmmakers to create awareness in a way not commonly seen.
+##### Storytelling through music videos and animations gives us the opportunity to work with musicians, actors, illustrators, dancers, poets, and filmmakers to create awareness in a way not commonly seen.
 
-We partner our videos with conversation guides, a tool used to enhance the education of the topic at hand.
+&nbsp;
 
-Our content can be used within a variety of curriculums including, but not limited to, schools, churches, and organizations. To learn more about using our content please visit our outreach page.
+&nbsp;
 
-VTM is powered by Core Communities, a non-profit organization helping communities thrive through conversations and connection.
-
-Visit the CoreCommunities site here: www.corecommunities.org
+&nbsp;
