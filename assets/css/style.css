@@ -1758,6 +1758,22 @@ main, header, footer, section, aside {
 }
 
 
+.doc-director {
+      display: grid;
+    grid-template-columns: 90px 1fr;
+    grid-gap: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid #efefef;
+    margin-top: 2rem;
+}
 
+.doc-director .doc-director--details h6 {
+      margin: 0 0 0.5rem;
+    font-size: 1.1rem;
+  
+}
 
-
+.doc-director .doc-director--details p {
+    font-size: 1rem;
+  
+}
