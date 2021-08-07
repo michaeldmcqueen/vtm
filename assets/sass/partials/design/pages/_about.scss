@@ -34,3 +34,55 @@ max-width: 980px;
       padding-bottom: 1em;
     }
   }
+
+
+
+
+
+
+.doc-page {
+ background: #fff;  
+}
+
+.doc-intro {
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+	@media #{$tablet} {
+	  grid-template-columns: 2.5fr 1fr;
+	}
+	img {
+	  max-width: 100% !important;
+	}
+	h1 {
+	      font-weight: 700;
+    font-size: 2rem;
+	}
+	h2 {
+	  font-size: 1.5rem;
+    margin-top: 1rem;
+	}
+}
+
+
+
+
+.doc-gallery {
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+	@media #{$tablet} {
+	  grid-template-columns: 1fr 1fr;
+	}
+}
+
+
+.video-container {
+    margin-bottom: 2rem;
+    margin-top: -50px;
+  	@media #{$tablet} {
+    margin-top: -150px;
+	}
+
+}
+
