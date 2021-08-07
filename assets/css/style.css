@@ -1721,7 +1721,8 @@ main, header, footer, section, aside {
 }
 @media (min-width: 768px) {
 .doc-intro {
-	  grid-template-columns: 2.5fr 1fr;
+	  grid-template-columns: 3fr 1fr;
+	  grid-gap: 4rem;
   }
 }
 
