@@ -1721,7 +1721,7 @@ main, header, footer, section, aside {
 }
 @media (min-width: 768px) {
 .doc-intro {
-	  grid-template-columns: 3fr 1fr;
+	  grid-template-columns: 3fr 2fr;
 	  grid-gap: 4rem;
   }
 }
@@ -1742,14 +1742,23 @@ main, header, footer, section, aside {
     margin-top: 1rem;
 	}
 
-.doc-gallery {
+.doc-gallery, .doc-gallery-2 {
   display:grid;
   grid-template-columns: 1fr;
   grid-gap: 2rem;
+    padding-top: 2rem;
+
 }
 @media (min-width: 768px) {
   .doc-gallery {
-	  grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr .645fr;
+	}
+}
+
+
+@media (min-width: 768px) {
+  .doc-gallery-2 {
+    grid-template-columns: .645fr  1fr;
 	}
 }
 
