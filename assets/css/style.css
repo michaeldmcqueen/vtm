@@ -1744,7 +1744,6 @@ main, header, footer, section, aside {
 
 .doc-gallery, .doc-gallery-2 {
   display:grid;
-  grid-template-columns: 1fr;
   grid-gap: 2rem;
     padding-top: 2rem;
 
