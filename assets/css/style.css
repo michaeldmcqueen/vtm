@@ -1751,7 +1751,7 @@ main, header, footer, section, aside {
 
 }
 @media (min-width: 768px) {
-  .doc-gallery {
+  .doc-gallery, .doc-gallery-2 {
       display:grid;
         grid-gap: 2rem;
 
