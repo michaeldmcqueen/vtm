@@ -1720,6 +1720,8 @@ main, header, footer, section, aside {
 }
 .paypal.mobile-only {
   padding: 1.5rem 0 0;
+      border-bottom: 1px solid #efefef;
+
 }
 .doc-page {
  background: #fff;  
