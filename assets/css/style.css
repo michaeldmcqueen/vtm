@@ -1718,6 +1718,9 @@ main, header, footer, section, aside {
     display:none !important;
   }
 }
+.paypal.mobile-only {
+  padding: 1.5rem 0;
+}
 .doc-page {
  background: #fff;  
 }
