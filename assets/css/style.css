@@ -548,7 +548,7 @@ ul.pager li a:visited {
 .logo img {
   display: block;
   margin: 0 auto 0 auto;
-  width: 100px;
+  width: 65px;
 }
 @media (min-width: 50em) {
   /* line 6, ../sass/partials/design/blocks/_logo.scss */
