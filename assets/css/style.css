@@ -554,6 +554,7 @@ ul.pager li a:visited {
   /* line 6, ../sass/partials/design/blocks/_logo.scss */
   .logo img {
     margin: 0;
+    width: 100px;
   }
 }
 /* line 92, ../../../../../.rvm/gems/ruby-2.4.0/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
