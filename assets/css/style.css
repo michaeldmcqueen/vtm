@@ -1710,7 +1710,7 @@ main, header, footer, section, aside {
 
 @media (min-width: 768px) {
   .mobile-only {
-    display:none;
+    display:none !important;
   }
 }
 .doc-page {
@@ -1762,6 +1762,14 @@ main, header, footer, section, aside {
   .doc-gallery-2 {
     grid-template-columns: .645fr  1fr;
 	}
+}
+
+.doc-gallery-mobile {
+  display:grid;
+  grid-template-columns:  1fr;
+
+  grid-gap: 1rem;
+
 }
 
 .video-container {
