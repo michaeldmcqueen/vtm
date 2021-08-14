@@ -1719,7 +1719,7 @@ main, header, footer, section, aside {
   }
 }
 .paypal.mobile-only {
-  padding: 1.5rem 0;
+  padding: 1.5rem 0 0;
 }
 .doc-page {
  background: #fff;  
