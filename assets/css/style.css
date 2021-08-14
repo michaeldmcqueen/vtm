@@ -1708,8 +1708,11 @@ main, header, footer, section, aside {
   font-size: 1.3rem;
 }
 
-
-
+@media (min-width: 768px) {
+  .mobile-only {
+    display:none;
+  }
+}
 .doc-page {
  background: #fff;  
 }
