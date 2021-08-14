@@ -1713,6 +1713,11 @@ main, header, footer, section, aside {
     display:none !important;
   }
 }
+@media (max-width: 767px) {
+  .tablet-up {
+    display:none !important;
+  }
+}
 .doc-page {
  background: #fff;  
 }
@@ -1770,6 +1775,7 @@ main, header, footer, section, aside {
 .doc-gallery-mobile {
   display:grid;
   grid-template-columns:  1fr;
+    padding-top: 1rem;
 
   grid-gap: 1rem;
 
